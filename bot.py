@@ -10,8 +10,8 @@ async def on_ready():
     print('Logged in as')
     print(client.user.name)
 
-guildids = ["489333893988745217", "520623784370110475"]
-channelids = ["491621917204414466", "520831140324573184", "519849314168602643"]
+guildids = ["519451035836874763"]
+channelids = ["519490720583778307", "519490720583778307", "520494704442212382"]
 
 @client.event
 async def on_message(message):
